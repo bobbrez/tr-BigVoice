@@ -1,0 +1,20 @@
+<!-- We don't need full layout in this file because this page will be parsed with Ajax. It is just enough to put here .navbar and .page-->
+<div class="navbar">
+  <div class="navbar-inner">
+    <!-- We need cool sliding animation on title element, so we have additional "sliding" class -->
+    <div class="center">Big Voice</div>
+    <div class="right">
+      <!--
+        Right link contains only icon - additional "icon-only" class
+        Additional "open-panel" class tells app to open panel when we click on this link
+      -->
+      <a href="#" class="link icon-only open-panel"><i class="icon icon-bars"></i></a>
+    </div>
+  </div>
+</div>
+
+<div class="pages">
+  <div data-page="top-cards" class="page">
+    <div class="page-content" id="top-cards"></div>
+  </div>
+</div>

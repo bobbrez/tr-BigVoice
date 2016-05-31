@@ -1,0 +1,14 @@
+{
+  "name": "big-voice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "serve src -p 4000"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "serve": "^1.4.0"
+  }
+}
